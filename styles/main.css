@@ -1,0 +1,153 @@
+header {
+  font-family: "MedievalSharp", cursive;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(white, #619275);
+  background-repeat: no-repeat;
+  background: cover;
+  border: 1px solid transparent;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: darkgreen;
+  margin-bottom: 1vw;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: darkgreen;
+  margin-top: 4vw;
+  margin-bottom: 2vw;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px gold;
+  max-width: 20vw;
+  margin-left: 40%;
+  margin-right: 40%;
+  font-size: 1.5vw;
+}
+
+a:link {
+  color: darkgreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: goldenrod;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: goldenrod;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.header_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2vw;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: 1.5vw;
+}
+
+.header_text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 10vw;
+}
+
+.logo {
+  width: 20vw;
+  margin-right: 5vw;
+  margin-left: 1vw;
+}
+
+.country_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.country_wrapper {
+  text-align: center;
+  position: relative;
+  width: 18vw;
+}
+
+.country_title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 20vw;
+}
+
+.countryimg_mid-world {
+  width: 18vw;
+  height: 12vw;
+  border-radius: 2em;
+  box-shadow: 3px 3px 4px goldenrod;
+  object-fit: cover;
+}
+
+.countryimg_kanto {
+  width: 18vw;
+  height: 12vw;
+  border-radius: 2em;
+  box-shadow: 3px 3px 4px goldenrod;
+  object-fit: cover;
+}
+
+.countryimg_tatooine {
+  width: 18vw;
+  height: 12vw;
+  border-radius: 2em;
+  box-shadow: 3px 3px 4px goldenrod;
+  object-fit: cover;
+}
+
+.countryimg_westeros {
+  width: 18vw;
+  height: 12vw;
+  border-radius: 2em;
+  box-shadow: 3px 3px 4px goldenrod;
+  object-fit: cover;
+}
+
+footer {
+  color: goldenrod;
+  text-align: center;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
