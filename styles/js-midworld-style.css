@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/bw-tatooine-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Montserrat:wght@500;700&display=swap"
+        rel="stylesheet">
+    <title>Tatooine</title>
+</head>
+<body>
+    <header>
+        <div class="header_wrapper">
+            <a href="index.html">
+            <img class="logo" src="/images/logo.png" alt="logo">
+            </a>
+            <div class="header_text">
+                <h1>SSRW Travel, LLC Incorporated</h1>
+                <h4>"Making your fantasies a reality"</h4>
+            </div>
+        </div>
+    
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mid-world.html">Mid-World</a></li>
+                    <li><a href="kanto.html">Kanto</a></li>
+                    <li><a href="tatooine.html">Tatooine</a></li>
+                    <li><a href="westeros.html">Westeros</a></li>
+                </ul>
+            </nav>
+        
+    </header>
+
+    <main>
+        <div class="main_img">
+            <img src="images/tatooine-img.jpeg" alt="Picture of tatooine">
+        </div>
+        <div class="h4_main">
+            <h4>Tatooine</h4>
+        </div>
+        <div class="lists">
+            <div class=cities_div>
+                <h3>Cities</h3>
+                <ul class="list-cities">
+                    <li>Mos Espa</li>
+                    <li>Mos Eisley</li>
+                    <li>Bestine</li>
+                </ul>
+            </div>
+
+            <div class="interests">
+                <h3>Points of Interest</h3>
+                <ul class="list-interests">
+                    <li>Jabba's Palace</li>
+                    <li>Beggar's Canyon</li>
+                    <li>Great Pit of Carkoon</li>
+                </ul>
+            </div>
+
+            <div class="people">
+                <h3>Famous Citizens</h3>
+                <ul>
+                    <li>Luke Skywalker</li>
+                    <li>Anakin Skywalker</li>
+                    <li>Jabba The Hutt</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>&copy; 2021 SSRW Travel, LLC Incorporated</footer>
+</body>
+</html>
