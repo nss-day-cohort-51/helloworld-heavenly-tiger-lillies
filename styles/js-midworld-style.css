@@ -1,79 +1,143 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/bw-tatooine-style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Montserrat:wght@500;700&display=swap"
-        rel="stylesheet">
-    <title>Tatooine</title>
-</head>
-<body>
-    <header>
-        <div class="header_wrapper">
-            <a href="index.html">
-            <img class="logo" src="/images/logo.png" alt="logo">
-            </a>
-            <div class="header_text">
-                <h1>SSRW Travel, LLC Incorporated</h1>
-                <h4>"Making your fantasies a reality"</h4>
-            </div>
-        </div>
-    
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="mid-world.html">Mid-World</a></li>
-                    <li><a href="kanto.html">Kanto</a></li>
-                    <li><a href="tatooine.html">Tatooine</a></li>
-                    <li><a href="westeros.html">Westeros</a></li>
-                </ul>
-            </nav>
-        
-    </header>
+header {
+  font-family: "MedievalSharp", cursive;
+}
 
-    <main>
-        <div class="main_img">
-            <img src="images/tatooine-img.jpeg" alt="Picture of tatooine">
-        </div>
-        <div class="h4_main">
-            <h4>Tatooine</h4>
-        </div>
-        <div class="lists">
-            <div class=cities_div>
-                <h3>Cities</h3>
-                <ul class="list-cities">
-                    <li>Mos Espa</li>
-                    <li>Mos Eisley</li>
-                    <li>Bestine</li>
-                </ul>
-            </div>
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(white, #619275);
+  background-repeat: no-repeat;
+  background: cover;
+  border: 1px solid transparent;
+  background-attachment: fixed;
+}
 
-            <div class="interests">
-                <h3>Points of Interest</h3>
-                <ul class="list-interests">
-                    <li>Jabba's Palace</li>
-                    <li>Beggar's Canyon</li>
-                    <li>Great Pit of Carkoon</li>
-                </ul>
-            </div>
+h1 {
+  color: darkgreen;
+  margin-bottom: 1vw;
+}
 
-            <div class="people">
-                <h3>Famous Citizens</h3>
-                <ul>
-                    <li>Luke Skywalker</li>
-                    <li>Anakin Skywalker</li>
-                    <li>Jabba The Hutt</li>
-                </ul>
-            </div>
-        </div>
-    </main>
-    <footer>&copy; 2021 SSRW Travel, LLC Incorporated</footer>
-</body>
-</html>
+h3 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: darkgreen;
+  margin-top: 4vw;
+  margin-bottom: 2vw;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px gold;
+  max-width: 40vw;
+  font-size: 1.5vw;
+  padding-right: 0.75vw;
+  padding-left: 0.75vw;
+}
+
+.h4_main h4 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: darkgreen;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px gold;
+  font-size: 1.5vw;
+  max-width: 40vw;
+  margin-top: 5vw;
+  padding-right: 0.75vw;
+  padding-left: 0.75vw;
+}
+
+a:link {
+  color: darkgreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: goldenrod;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: goldenrod;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.header_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2vw;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: 1.5vw;
+}
+
+.header_text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 10vw;
+}
+
+.logo {
+  width: 20vw;
+  margin-right: 5vw;
+  margin-left: 1vw;
+}
+
+main img {
+  height: 30vw;
+  width: auto;
+}
+
+.main_img {
+  display: flex;
+  justify-content: center;
+}
+
+.h4_main {
+  display: flex;
+  justify-content: center;
+  margin-right: 5vw;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: darkgreen;
+  font-size: larger;
+}
+
+footer {
+  color: goldenrod;
+  text-align: center;
+  margin-top: 2vw;
+  margin-bottom: 5vw;
+}
