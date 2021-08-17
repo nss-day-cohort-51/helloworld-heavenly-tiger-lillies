@@ -151,3 +151,31 @@ footer {
   margin-top: 5vw;
   margin-bottom: 5vw;
 }
+
+/* Westeros  */
+
+.westeros_section img {
+  width: 50%;
+}
+
+.westeros_img {
+  display: flex;
+  justify-content: center;
+}
+
+.westeros_info {
+  font-size: 1vw;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  color: darkgreen;
+}
+
+.westeros_info h2 {
+  max-width: 40vw;
+  margin-left: 0%;
+  margin-right: 0%;
+  font-size: 1.5vw;
+}
