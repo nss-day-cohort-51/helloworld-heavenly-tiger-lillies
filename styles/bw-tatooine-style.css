@@ -123,6 +123,249 @@ main img {
 
 .h4_main {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 0;
+  align-items: center;
+}
+
+.h4_main p {
+  font-size: 1.5vw;
+  color: darkgreen;
+}
+
+.people ul {
+  margin-left: none;
+  padding-left: none;
+  list-style-type: none;
+  width: 28vw;
+}
+
+.interests ul {
+  margin-left: none;
+  padding-left: none;
+  list-style-type: none;
+  width: 28vw;
+}
+
+.cities ul {
+  margin-left: none;
+  padding-left: none;
+  list-style-type: none;
+  width: 28vw;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: darkgreen;
+  font-size: larger;
+  min-width: 400px;
+  width: 100%;
+}
+
+.lists img {
+  width: 15vw;
+  height: 15vw;
+}
+
+.espa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.eisley {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.bestine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.jabba-palace {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.beggar-canyon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.great-pit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.luke-sky {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.anakin-sky {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.jabba-the-hutt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+footer {
+  color: goldenrod;
+  text-align: center;
+  margin-top: 2vw;
+  margin-bottom: 5vw;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(white, #619275);
+  background-repeat: no-repeat;
+  background: cover;
+  border: 1px solid transparent;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: darkgreen;
+  margin-bottom: 1vw;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: darkgreen;
+  margin-top: 4vw;
+  margin-bottom: 2vw;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px gold;
+  max-width: 40vw;
+  font-size: 1.5vw;
+  padding-right: 0.75vw;
+  padding-left: 0.75vw;
+}
+
+.h4_main h4 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: darkgreen;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px gold;
+  font-size: 1.5vw;
+  max-width: 40vw;
+  margin-top: 5vw;
+  padding-right: 0.75vw;
+  padding-left: 0.75vw;
+}
+
+a:link {
+  color: darkgreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: goldenrod;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: goldenrod;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.header_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2vw;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: 1.5vw;
+}
+
+.header_text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 10vw;
+}
+
+.logo {
+  width: 20vw;
+  margin-right: 5vw;
+  margin-left: 1vw;
+}
+
+main img {
+  height: 30vw;
+  width: auto;
+}
+
+.main_img {
+  display: flex;
+  justify-content: center;
+}
+
+.h4_main {
+  display: flex;
   justify-content: center;
   margin-right: 5vw;
 }
