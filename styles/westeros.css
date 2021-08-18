@@ -127,6 +127,156 @@ main img {
   margin-right: 5vw;
 }
 
+footer {
+  color: goldenrod;
+  text-align: center;
+  margin-top: 2vw;
+  margin-bottom: 5vw;
+}
+
+.quote {
+  padding-left: 39%;
+  font-family: "MedievalSharp", cursive;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* SECTION OF LISTS FOR WESTEROS PAGE  */
+
+.cities_div {
+  width: 400px;
+}
+
+.list-interests {
+  width: 400px;
+}
+
+.people_list {
+  width: 400px;
+}
+
+.list-cities {
+}
+
+.cities_div img {
+  width: 200px;
+  height: 150px;
+}
+
+.kings_landing {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.kings_landing li {
+  padding-right: 75px;
+}
+
+.oldtown {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding-top: 15px;
+}
+
+.oldtown li {
+  padding-right: 75px;
+}
+
+.lannisport {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding-top: 15px;
+}
+
+.lannisport li {
+  padding-right: 75px;
+}
+
+.winterfell {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.winterfell li {
+  padding-right: 80px;
+}
+
+.the_wall {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding-top: 15px;
+}
+
+.the_wall li {
+  padding-right: 80px;
+}
+
+.riverrun {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding-top: 15px;
+}
+
+.riverrun li {
+  padding-right: 80px;
+}
+
+.jon_snow {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.jon_snow li {
+  padding-right: 80px;
+}
+
+.sansa_stark {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding-top: 15px;
+}
+
+.sansa_stark li {
+  padding-right: 80px;
+}
+
+.robb_stark {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding-top: 15px;
+}
+
+.robb_stark li {
+  padding-right: 80px;
+}
+
 .lists {
   display: flex;
   flex-direction: row;
@@ -135,9 +285,12 @@ main img {
   font-size: larger;
 }
 
-footer {
-  color: goldenrod;
-  text-align: center;
-  margin-top: 2vw;
-  margin-bottom: 5vw;
+.interests img {
+  width: 200px;
+  height: 150px;
+}
+
+.people img {
+  width: 200px;
+  height: 150px;
 }

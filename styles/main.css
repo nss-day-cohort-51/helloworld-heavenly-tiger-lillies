@@ -40,25 +40,25 @@ h2 {
   font-size: 1.5vw;
 }
 
-a:link {
+nav a:link {
   color: darkgreen;
   background-color: transparent;
   text-decoration: none;
 }
 
-a:visited {
+nav a:visited {
   color: goldenrod;
   background-color: transparent;
   text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
 
-a:active {
+nav a:active {
   color: goldenrod;
   background-color: transparent;
   text-decoration: underline;
@@ -102,6 +102,7 @@ nav ul {
   text-align: center;
   position: relative;
   width: 18vw;
+  font-size: 1.25vw;
 }
 
 .country_title {
@@ -111,6 +112,7 @@ nav ul {
   transform: translate(-50%, -50%);
   color: white;
   width: 20vw;
+  text-shadow: black;
 }
 
 .countryimg_mid-world {
@@ -178,4 +180,28 @@ footer {
   margin-left: 0%;
   margin-right: 0%;
   font-size: 1.5vw;
+}
+
+.country_wrapper a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.country_wrapper a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.country_wrapper a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.country_wrapper a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
 }
